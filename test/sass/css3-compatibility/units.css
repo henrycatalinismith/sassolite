@@ -1,0 +1,44 @@
+/**
+ * Ensure support for all CSS3 units of measurement
+ */
+a {
+  /* font size of the element */
+  margin: 1em;
+  /* x-height of the element's font */
+  margin: 1ex;
+  /* width of the "0" (ZERO, U+0030) glyph in the element's font */
+  margin: 1ch;
+  /* font size of the root element */
+  margin: 1rem;
+  /* 1% of viewport's width */
+  margin: 1vw;
+  /* 1% of viewport's height */
+  margin: 1vh;
+  /* 1% of viewport's smaller dimension */
+  margin: 1vmin;
+  /* 1% of viewport's large dimension */
+  margin: 1vmax; }
+
+a {
+  /* Equal to the computed value of the ‘font-size’ property of the element */
+  font-size: 1em;
+  /* Equal to the used x-height of the first available font */
+  font-size: 1ex;
+  /* Equal to the used advance measure of "0" in the font used to render it */
+  font-size: 1ch;
+  /* Equal to the computed value of ‘font-size’ on the root element */
+  font-size: 1rem; }
+
+a {
+  /* centimeters */
+  width: 1cm;
+  /* millimeters */
+  width: 1mm;
+  /* inches */
+  width: 1in;
+  /* pixels */
+  width: 1px;
+  /* points */
+  width: 1pt;
+  /* picas */
+  width: 1pc; }

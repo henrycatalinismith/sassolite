@@ -1,0 +1,25 @@
+/**
+ * CSS3 Compatibility Test
+ *
+ * This file contains a valid CSS3 stylesheet. It uses no SASS syntax or
+ * functionality whatsoever.
+ */
+body {
+  font-family: 'sans-serif';
+  font-size: 18px;
+  min-width: 20em;
+  max-width: 60%; }
+
+h1 {
+  color: red;
+  font-size: 2in;
+  line-height: 5cm;
+  padding-bottom: 2pc;
+  padding-top: 10pt; }
+
+p {
+  line-height: 20mm;
+  font-size: 1.8cm; }
+
+a:link {
+  color: #00f; }

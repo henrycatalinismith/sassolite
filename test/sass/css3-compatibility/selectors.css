@@ -1,0 +1,62 @@
+/**
+ * Support for CSS3 selector syntax
+ */
+/* simple single element selector */
+a {
+  color: green; }
+
+/* selector list */
+a, p, h1 {
+  color: green; }
+
+/* classes */
+header.welcome, div.test-hyphen, p.test_underscore {
+  font-size: 2em; }
+
+/* IDs */
+header#welcome, div#test-hyphen, p#test_underscore {
+  font-size: 2em; }
+
+/* wildcard selector */
+* {
+  margin: 0; }
+
+/* pseudo-classes */
+a:link, a:visited, a:active, a:hover, a:focus, a:target, a:enabled, a:disabled, a:checked, a:first-child, a:root, a:last-child, a:first-of-type, a:last-of-type, a:only-of-type, a:empty, *:first-letter {
+  color: blue; }
+
+/* pseudo-elements */
+p::before {
+  content: "<<"; }
+
+p::after {
+  content: ">>"; }
+
+/* combination selectors */
+p.very.good, footer#global.warning {
+  text-align: justify; }
+
+/* attribute selectors */
+span[lang] {
+  font-weight: bold; }
+
+span[lang="pt"] {
+  color: green; }
+
+span[color=red] {
+  color: green; }
+
+span[lang~="en-us"] {
+  color: blue; }
+
+span[lang|="zh"] {
+  color: red; }
+
+a[href^="#"] {
+  background-color: gold; }
+
+a[href$=".cn"] {
+  color: red; }
+
+a[href*="example"] {
+  background-color: #CCCCCC; }
